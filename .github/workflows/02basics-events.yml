@@ -1,0 +1,12 @@
+name: 02-basics-events Basics Events 
+
+on: push
+
+jobs:
+  print-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello, World!"
+
+
